@@ -1,0 +1,26 @@
+编译运行环境
+系统版本号 CentOS Linux release 7.2.1511 (Core)
+编译器 gcc version 4.8.5
+
+编译命令
+比如将代码放入以下目录
+[root@VM_0_12_centos wheeltimer]# pwd
+/home/jackiexiao/cpp_project/wheeltimer
+
+运行make
+# make 
+
+执行可执行文件hello
+# ./hello
+
+输出结果 
+[root@VM_0_12_centos wheeltimer]# ./hello 
+ntxtimer fired here sec:5 usec:435 round:545, nowtm:2020-06-19 11:01:46 timer_timeout_tm:2020-06-19 11:01:46, create_tm:2020-06-19 11:01:40
+ntxtimer fired here sec:5 usec:601 round:562, nowtm:2020-06-19 11:01:46 timer_timeout_tm:2020-06-19 11:01:46, create_tm:2020-06-19 11:01:40
+ntxtimer fired here sec:6 usec:486 round:650, nowtm:2020-06-19 11:01:47 timer_timeout_tm:2020-06-19 11:01:47, create_tm:2020-06-19 11:01:40
+ntxtimer fired here sec:8 usec:223 round:824, nowtm:2020-06-19 11:01:49 timer_timeout_tm:2020-06-19 11:01:49, create_tm:2020-06-19 11:01:40
+ntxtimer fired here sec:8 usec:764 round:878, nowtm:2020-06-19 11:01:49 timer_timeout_tm:2020-06-19 11:01:49, create_tm:2020-06-19 11:01:40
+ntxtimer fired here sec:10 usec:212 round:1023, nowtm:2020-06-19 11:01:51 timer_timeout_tm:2020-06-19 11:01:51, create_tm:2020-06-19 11:01:40
+ntxtimer fired here sec:14 usec:235 round:1425, nowtm:2020-06-19 11:01:55 timer_timeout_tm:2020-06-19 11:01:55, create_tm:2020-06-19 11:01:40
+ntxtimer fired here sec:14 usec:661 round:1468, nowtm:2020-06-19 11:01:55 timer_timeout_tm:2020-06-19 11:01:55, create_tm:2020-06-19 11:01:40
+ntxtimer fired here sec:15 usec:154 round:1517, nowtm:2020-06-19 11:01:56 timer_timeout_tm:2020-06-19 11:01:56, create_tm:2020-06-19 11:01:40
